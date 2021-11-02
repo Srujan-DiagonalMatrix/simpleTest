@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+  xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+  <changeSet id="1" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSAFC/FINANCE_DSSAFC_CREATE.ddl"/>
+  </changeSet>
+  <changeSet id="2" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSLDM/FINANCE_DSSLDM_CREATE.ddl"/>
+  </changeSet>
+  <changeSet id="3" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSLDS/FINANCE_DSSLDS_CREATE.ddl"/>
+  </changeSet>
+  <changeSet id="4" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSLDT/FINANCE_DSSLDT_CREATE.ddl"/>
+  </changeSet>
+  <changeSet id="5" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSPDM/FINANCE_DSSPDM_CREATE.ddl"/>
+  </changeSet>
+  <changeSet id="6" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSTPT/FINANCE_DSSTPT_CREATE.ddl"/>
+  </changeSet>
+  <changeSet id="7" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSTRD/FINANCE_DSSTRD_CREATE.ddl"/>
+  </changeSet>
+  <changeSet id="8" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSAFC/FINANCE_DSSAFC_ALTER_15062021_1716_SABI-1157.ddl"/>
+  </changeSet>
+  <changeSet id="9" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSLDM/FINANCE_DSSLDM_ALTER_15062021_1716_SABI-1157.ddl"/>
+  </changeSet>
+  <changeSet id="10" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSLDS/FINANCE_DSSLDS_ALTER_15062021_1716_SABI-1157.ddl"/>
+  </changeSet>
+  <changeSet id="11" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSLDT/FINANCE_DSSLDT_ALTER_15062021_1716_SABI-1157.ddl"/>
+  </changeSet>
+  <changeSet id="12" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSPDM/FINANCE_DSSPDM_ALTER_15062021_1716_SABI-1157.ddl"/>
+  </changeSet>
+  <changeSet id="13" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSTPT/FINANCE_DSSTPT_ALTER_15062021_1716_SABI-1157.ddl"/>
+  </changeSet>
+  <changeSet id="14" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSTRD/FINANCE_DSSTRD_ALTER_15062021_1716_SABI-1157.ddl"/>
+  </changeSet>
+  <changeSet id="15" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/FINANCE_DSSHGV/FINANCE_DSSHGV_CREATE.ddl"/>
+  </changeSet>
+
+  <changeSet id="SABI-1239-001" author="Grape-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/POSTCODE_ONSPCD_SAT/001_CREATE_SABI-1239.ddl"/>
+  </changeSet>
+
+  <changeSet id="NER-101" author="Nectarine-Squad">
+        <sqlFile path="update/ADW_STAGE/tables/EAGLEEYE_OCC_CAMPAIGN_DETAILS/001_CREATE_NER-101.ddl"/>
+  </changeSet>
+
+</databaseChangeLog>
